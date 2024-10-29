@@ -27,7 +27,10 @@ ol li a
 }
 video
 {
-    margin: 40px
+    margin: 40px;
+    max-width: 100%;
+    height: auto;
+
 
 }
 
@@ -51,6 +54,7 @@ h2
 .songs ul
 {
     display: flex;
+    flex-wrap: wrap;
     font-size: 1.5rem;
     justify-content: center;
     text-decoration: underline;
